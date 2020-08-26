@@ -1,5 +1,6 @@
 name: workshop_env
 channels:
+- rdkit
 - conda-forge
 dependencies:
 - pip
@@ -12,8 +13,14 @@ dependencies:
 - scipy
 - seaborn
 - tqdm
+- rdkit
 - scikit-learn
 - pip:
   - tensorflow
   - tensorflow-probability
+  - selfies
+  - dm-sonnet
+  - graph_nets
   - umap-learn
+  - mordred
+
